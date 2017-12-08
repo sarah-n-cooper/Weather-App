@@ -5,14 +5,18 @@
   font-family: 'Alegreya Sans', sans-serif;
 }
 #temp{
-  font-family: 'Monoton', cursive;
+  font-family: 'Monoton', sans-serif;
   font-size: 80px;
 }
 
 .hi{
   background: transparent;
+  color: red;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
 }
 
+}
 .clouds{
   background: url(Weather-Icons-clouds.png) no-repeat center center fixed ;
   background-size: cover;
