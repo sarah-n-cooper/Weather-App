@@ -18,8 +18,6 @@
 .clear{
 background: url(Weather-Icons-clear.png) no-repeat center center fixed;
 background-size: cover;
-/*width: 500px;
-height: 500px;*/
 background-attachment: scroll;
 
 }
@@ -38,8 +36,8 @@ background-attachment: scroll;
 .rain{
  background: url(Weather-Icons-rain.png) no-repeat center center fixed;
  background-size: cover;
- width: 100vw;
  background-attachment: scroll;
+ width: 100vw;
 }
 
 .snow{
