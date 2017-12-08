@@ -6,8 +6,7 @@
 }
 #temp{
   font-family: 'Monoton', sans-serif;
-  font-size: 80px;
-}
+  font-size: 80px;}
 
 .hi{
   background: transparent;
@@ -15,9 +14,8 @@
   font-weight: bold;
 }
 
-}
 .clouds{
-  background: url(Weather-Icons-clouds.png) no-repeat center center fixed ;
+  background: url(Weather-Icons-clouds.png)no-repeat center center fixed;
   background-size: cover;
   background-attachment: scroll;
 }
@@ -31,7 +29,7 @@ background-attachment: scroll;
 .thunderstorm{
  background: url(Weather-Icons-thunder.png) no-repeat center center fixed;
  background-size: cover;
-background-attachment: scroll;
+ background-attachment: scroll;
 }
 
 .drizzle{
@@ -53,22 +51,32 @@ background-attachment: scroll;
 }
 
 .mist{
+  background: url(Weather-Icons-drizzle.png) no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.fog{
  background: url(Weather-Icons-fog.png) no-repeat center center fixed;
  background-size: cover;
 background-attachment: scroll;
 }
 
- .breezy{
-   background: url(Weather-Icons-breezy.png) no-repeat center center absolute;
+.haze{
+ background: url(Weather-Icons-fog.png) no-repeat center center fixed;
+ background-size: cover;
+background-attachment: scroll;
+ /*.breezy{
+   background: url(Weather-Icons-breezy.png) no-repeat center center ;
    background-size: contain;
    background-attachment: scroll;
  }
 
 .windy{
-  background: url(Weather-Icons-wind.png) no-repeat center center absolute;
+  background: url(Weather-Icons-wind.png) no-repeat center center fixed;
   background-size: contain;
   background-attachment: scroll;
-}
+}*/
 /*
  .cold{
    background: url(Back_Cold.png) no-repeat center center fixed;
