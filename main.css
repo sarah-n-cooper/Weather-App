@@ -13,6 +13,11 @@
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: bold;
 }
+.hello{
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+}
 
 .clouds{
   background: url(Weather-Icons-clouds.png)no-repeat center center fixed;
@@ -66,6 +71,8 @@ background-attachment: scroll;
  background: url(Weather-Icons-fog.png) no-repeat center center fixed;
  background-size: cover;
 background-attachment: scroll;
+}
+
  /*.breezy{
    background: url(Weather-Icons-breezy.png) no-repeat center center ;
    background-size: contain;
