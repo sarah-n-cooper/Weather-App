@@ -37,7 +37,6 @@ background-attachment: scroll;
  background: url(Weather-Icons-rain.png) no-repeat center center fixed;
  background-size: cover;
  background-attachment: scroll;
- width: 100vw;
 }
 
 .snow{
