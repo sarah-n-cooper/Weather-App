@@ -1,0 +1,82 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+.font{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#temp{
+  font-family: 'Monoton', cursive;
+  font-size: 80px;
+}
+
+.clouds{
+  background: url(Weather-Icons-clouds.png) no-repeat center center fixed ;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.clear{
+background: url(Weather-Icons-clear.png) no-repeat center center fixed;
+background-size: cover;
+/*width: 500px;
+height: 500px;*/
+background-attachment: scroll;
+
+}
+.thunderstorm{
+ background: url(Weather-Icons-thunder.png) no-repeat center center fixed;
+ background-size: cover;
+background-attachment: scroll;
+}
+
+.drizzle{
+ background: url(Weather-Icons-drizzle.png) no-repeat center center fixed;
+ background-size: cover;
+ background-attachment: scroll;
+}
+
+.rain{
+ background: url(Weather-Icons-rain.png) no-repeat center center fixed;
+ background-size: cover;
+ width: 100vw;
+ background-attachment: scroll;
+}
+
+.snow{
+ background: url(Weather-Icons-snow.png) no-repeat center center fixed;
+ background-size: cover;
+ background-attachment: scroll;
+}
+
+.mist{
+ background: url(Weather-Icons-fog.png) no-repeat center center fixed;
+ background-size: cover;
+background-attachment: scroll;
+}
+
+ .breezy{
+   background: url(Weather-Icons-breezy.png) no-repeat center center absolute;
+   background-size: contain;
+   background-attachment: scroll;
+ }
+
+.windy{
+  background: url(Weather-Icons-wind.png) no-repeat center center absolute;
+  background-size: contain;
+  background-attachment: scroll;
+}
+/*
+ .cold{
+   background: url(Back_Cold.png) no-repeat center center fixed;
+   background-size: cover;
+ }
+
+ .warm{
+   background: url(Back_Warm.jpeg) no-repeat center center fixed;
+   background-size: cover;
+ }
+
+ .hot{
+   background: url(Back_Hot.jpeg) no-repeat center center fixed;
+   background-size: cover;
+ }*/

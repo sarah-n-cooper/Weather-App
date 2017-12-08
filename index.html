@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Set a page title -->
+  <title>It's Weather Time</title>
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="tachyons.min.css">
+  <link rel="stylesheet" href="/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Monoton" rel="stylesheet">
+</head>
+
+<body>
+  <div class="font">
+
+    <!-- If there is an error, this box is shown. 'dn' is the only required class -->
+    <div id="error" class="dn bg-red white f3 pa4 top-0 w-100">
+      Where? Try that again, mate.
+    </div>
+
+    <!-- Search Box -->
+<div class="fixed bottom-2">
+    <form id="location-search" class="pl4">
+      <h1 class="flex-wrap items-baseline">
+          <span class="mr3 mb2 f4">
+            What's the weather like in:
+          </span>
+          <input type="text" id="area" value="Tokyo" class="f5 flex-auto">
+        </h1>
+    </form>
+  </div>
+
+
+    <!-- Content -->
+
+<div class="flex flex-column items-center center mt-50 w-100">
+
+    <!-- <div class="absolute-fill center w-100 clouds clear thunderstorm drizzle rain snow atmosphere breezy windy"></div> -->
+    <!-- <div class="flex center atmosphere breezy windy"></div> -->
+
+    <div class="mt6 pa4 bottom bg-white ba--black bw1 ma0">
+      <div class="w-100 ">
+        <p><span id="temp" class="center"></span></p>
+        <p> <span id="location-name" class="f1"></span>, <span id="country" class="f1"></span></p>
+        <p>Max <span id="temp-max"></span> / Min <span id="temp-min"></span></p>
+        <p><span class="center" id="condition"></span> / <span id="condition-description"></span></p>
+        <p>Wind: <span id="wind-speed"></span> mph</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Site JavaScript -->
+  <script src="/toggleClass.js" charset="utf-8"></script>
+  <script src="/main.js" charset="utf-8"></script>
+  <script src="/weather.js" charset="utf-8"></script>
+</body>
+
+</html>
